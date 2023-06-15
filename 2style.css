@@ -1,0 +1,138 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background-color: #d14836;
+}
+
+.header{
+  background-color: #d14836;
+  color: white;
+  margin: 0 0 10px 25px;
+  padding: 8px 18px 18px 18px;
+  font-size: 30px;
+}
+
+.column{
+  float: left;
+  background-color: white;
+  height: 350px;
+}
+.column a{
+  font-size: 18px;
+  text-decoration:none;
+  color: black;
+  padding: 7px 15px 7px 5px;
+  display: flex;
+  text-align: left; 
+}
+.column.middle{
+  width: 1000px;
+  margin-left: 46px;
+  padding: 15px;
+}
+.column.middle h2{
+  font-size: 30px;
+  padding-bottom: 15px;
+  color:  #d14836;
+}
+.column.middle p{
+  font-size: 20px;
+  line-height: 1.5;
+}
+.column.middle h3{
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+  color:  #d14836;
+}
+.column.middle ul{
+  display: flex;
+}
+.column.middle li{
+  border: none;
+  display: block;
+  background-color: white;
+  width: 120px;
+  padding: 0;
+  color: black;
+  margin-left: 0;
+  margin-top: 8px;
+}
+.column.middle li:hover{
+  text-decoration: underline;
+  color:  #d14836;
+}
+.column.middle a{
+  padding: 0;
+  margin: 0;
+  color:  #d14836;
+}
+
+
+.column.side{
+  display: flex;
+}
+.column.side ul{
+  margin: auto;
+ }
+ .column.side a{
+  color: white;
+  justify-content: center;
+ }
+.column.side li{
+  margin: 15px;
+  list-style-type: none;
+  border-radius: 20px;
+  text-align: left;
+  background-color: #d14836;
+  color: white;
+  width: 180px;
+  text-decoration: none; 
+}
+.column.side li a:hover{
+  color: #d14836;
+  background-color: white;
+  border: 1px solid #d14836;
+  border-radius: 20px;
+}
+.column.side li .active{
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #d14836;
+  color: #d14836;
+}
+.column.side li:hover{
+  background-color: white;
+}
+
+
+
+.side1{
+  padding: 15px;
+  background-color: pink;
+  margin: 0 110px 10px 45px;
+  color: #d14836;
+}
+.side1 p{
+  font-size: 17px;
+  line-height: 1.5;
+}
+.side1{
+  clear: both;
+}
+
+
+#footer1{
+  clear: both;
+  margin: 0 10px 0 10px;
+}
+#footer1 p{
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
